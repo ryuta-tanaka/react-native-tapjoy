@@ -60,6 +60,6 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.facebook.react:react-native:'
-    implementation 'com.tapjoy:tapjoy-android-sdk:13.0.1'
+    implementation 'com.facebook.react:react-native:+'
+    api 'com.tapjoy:tapjoy-android-sdk:12.4.2@aar'
 }
