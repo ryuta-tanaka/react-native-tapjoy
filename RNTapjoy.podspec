@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "9.0"
   s.dependency 'React'
-  s.dependency 'TapjoySDK', '13.0.1'
+  s.dependency 'TapjoySDK', '13.1.2'
 
   s.subspec "RCT" do |ss|
     ss.source_files = "ios/RCT/**/*.{h,m}"
