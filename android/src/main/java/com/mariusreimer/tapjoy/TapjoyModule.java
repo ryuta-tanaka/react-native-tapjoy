@@ -290,11 +290,6 @@ public class TapjoyModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void registerForPushNotifications(String gcmSenderId) {
-        Tapjoy.setGcmSender(gcmSenderId);
-    }
-
-    @ReactMethod
     public void setDebugEnabled(boolean debugEnabled) {
         Tapjoy.setDebugEnabled(debugEnabled);
     }

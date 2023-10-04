@@ -27,12 +27,6 @@ export class Tapjoy {
   }
 
   initialise() {
-    if (Platform.OS === 'android' && this._options.gcmSenderIdAndroid != null) {
-      this._tapjoy.registerForPushNotifications(
-        this._options.gcmSenderIdAndroid,
-      );
-    }
-
     const sdkKey =
       Platform.OS === 'ios'
         ? this._options.sdkKeyIos
